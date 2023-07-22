@@ -10,6 +10,7 @@ body{
 .app {
     top: 100px;
     margin: auto;
+    visibility: hidden;
   }
   
   .news-box {
@@ -18,9 +19,6 @@ body{
       top: 0px;
       height: 3em;
       width: 100%;
-      border: 1px solid #db5299;
-      padding: 0px;
-      background-color: #e280b2;
     }
   
   /* @keyframes scroll {
@@ -46,6 +44,6 @@ body{
     .ticker {
       visibility: hidden;
       width: 100%;
-      max-height: 3em;
+      max-height: 0em;
     }
     

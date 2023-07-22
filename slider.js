@@ -27,7 +27,6 @@ const newsTicker = {
             left: this.tickerWidth,
             fontSize: "1.5rem",
             whiteSpace: "nowrap",
-            color: "white"
         };
         this.blockArr = $(this.$ticker).get().map(e => $(e).text());
         this.itemNum = -1;
