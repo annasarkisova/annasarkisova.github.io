@@ -2,10 +2,14 @@
     font-family: "Wremena";
     src: url('./assets/fonts/WremenaRegular.woff');
 }
+
+body{
+    font-family: "Wremena";
+}
+
 .app {
     top: 100px;
     margin: auto;
-    font-family: Wremena;
   }
   
   .news-box {

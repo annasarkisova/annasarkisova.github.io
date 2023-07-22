@@ -22,7 +22,7 @@ const newsTicker = {
         this.class="underline"
         this.style = {
             position: "absolute",
-            top: "2px",
+            top: "3px",
             right: -(this.tickerWidth),
             left: this.tickerWidth,
             fontSize: "1.5rem",
