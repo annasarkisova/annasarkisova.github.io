@@ -26,7 +26,8 @@ const newsTicker = {
             right: -(this.tickerWidth),
             left: this.tickerWidth,
             fontSize: "1.5rem",
-            whiteSpace: "nowrap"
+            whiteSpace: "nowrap",
+            color: "white"
         };
         this.blockArr = $(this.$ticker).get().map(e => $(e).text());
         this.itemNum = -1;
@@ -41,7 +42,7 @@ const newsTicker = {
         // console.log(($(this.$news).width()),this.$news.width(),$(this.ticker).width()) 
         $(this.$news).animate({
             left: `-${$(this.ticker).width() *2}`
-        }, 14000, "linear", this.ticker.bind(this));
+        }, 20000, "linear", this.ticker.bind(this));
     }
 }
 newsTicker.init();
