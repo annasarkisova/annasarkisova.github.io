@@ -2,3 +2,45 @@
     font-family: "Wremena";
     src: url('./assets/fonts/WremenaRegular.woff');
 }
+.app {
+    top: 100px;
+    margin: auto;
+  }
+  
+  .news-box {
+      overflow: hidden;
+      position: absolute;
+      top: 0px;
+      height: 3em;
+      width: 100%;
+      border: 1px solid #db5299;
+      padding: 0px;
+      background-color: #e280b2;
+    }
+  
+  /* @keyframes scroll {
+    from {
+      left: 500px;
+    }
+    to {
+      left: -500px;
+    }
+  }
+     */
+    .tag-line {
+      position: absolute;
+      top: 0px;
+      left: 5px;
+      font-size: 1.2em;
+    }
+    
+    .news {
+      
+    }
+     
+    .ticker {
+      visibility: hidden;
+      width: 100%;
+      max-height: 3em;
+    }
+    
